@@ -1,7 +1,7 @@
 {
     "enabled": "true",
     "increase-coverage": {
-      "project-name": "Next-js-Boilerplate",
+      "project-name": "next-js-Boilerplate",
       "target-branches": [
         "main"
       ],
