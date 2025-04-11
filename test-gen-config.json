@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "increase-coverage": {
+      "project-name": "Next-js-Boilerplate",
+      "target-branches": [
+        "main"
+      ],
+      "test-env-docker-stage": "test",
+      "build-test-env-docker-stage-script-path": "tool/build-test-env-docker-stage.sh",
+      "test-files-folders": [
+        "src/utils"
+      ],
+      "source-test-file-paths": [
+        {
+          "source-file-path": "src/utils/Helpers.ts",
+          "test-file-path": "src/utils/Helpers.test.ts"
+        }
+      ],
+      "test-command": "npm run test",
+      "coverage-type": "lcov",
+      "code-coverage-report-path": "coverage/lcov.info",
+      "desired-coverage": 100,
+      "max-iterations": 1,
+      "max-number-of-test-cases": 6
+    }
+}
